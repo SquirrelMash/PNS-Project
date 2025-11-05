@@ -10,4 +10,4 @@ To run main both func and vis are required. The parameters of the simulation are
 - Boolean mid\_reset = False - Determinants whether or not we reset the atom in between the early and late time bins.
 - Integer num\_of\_sprints = 1 - Determinants the number of times the state will be put through the SPRINT system (the atom is reset every time. If mid\_reset is set to true, at each pass through the atom, it will be reset between the two time bins).
 
-The values written in the list are the defualt values for the pararmeters.
+The values written in the list are the default values for the pararmeters.
