@@ -31,7 +31,7 @@ def plot_fidelity(a_values,b_values,alpha_values,fid_T,fid_R,flag = 'normal'):
     - flag: Determines the X axis of the plot. flag : {'normal', 'square'}. Determines the X-axis of the plot. "normal": uses (a, alpha) as axes. "square": uses (|a|², μ) as axes.
     
     Returns:
-    None. The function displays the fidelity plot.
+    None. The function saves the fidelity plot under the name "plot.png" and displays it.
     """
     
     plt.rcParams['axes.formatter.useoffset'] = False
@@ -101,4 +101,5 @@ def plot_fidelity(a_values,b_values,alpha_values,fid_T,fid_R,flag = 'normal'):
     #ax.yaxis.set_major_formatter(mtick.ScalarFormatter(useMathText=True))
 
 
+    plt.savefig("plot.png")
     plt.show()
