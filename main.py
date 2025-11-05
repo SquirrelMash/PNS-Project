@@ -12,6 +12,7 @@ def main():
     a = 1
     b = 0
     alpha_values = np.linspace(0, np.sqrt(1), 50,dtype = float)
+    
     fid_T,fid_R = get_fid_values(a,b,alpha_values,theta,num_of_sprints,mid_reset,lowest_state,n)
     plot_fidelity(a,b,alpha_values,fid_T,fid_R,'square')
 
