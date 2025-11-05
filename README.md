@@ -8,4 +8,6 @@ To run main both func and vis are required. The parameters of the simulation are
 - Integer lowest\_state = 0 - Determinants the lowest state permitted in the coherent state in the input.
 - Float theta = 0 - Determinants the angle of the beam splitter (if 0, the identity operator is used).
 - Boolean mid\_reset = False - Determinants whether or not we reset the atom in between the early and late time bins.
-- Integer num\_of\_sprints = 1 - Determinants the number of times the state will be put through the SPRINT system (the atom is reset every time. If mid\_reset is set to true, at each pass through the atom, it will be reset between      the two time bins).
+- Integer num\_of\_sprints = 1 - Determinants the number of times the state will be put through the SPRINT system (the atom is reset every time. If mid\_reset is set to true, at each pass through the atom, it will be reset between the two time bins).
+
+The values written in the list are the defualt values for the pararmeters.
